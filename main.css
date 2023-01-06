@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+    text-transform: uppercase;
+    letter-spacing: .4rem;
+}
+
+table {
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+    border-collapse: collapse;
+
+}
+
+
+
+tr {
+    border-bottom: 1px solid gray;
+
+
+}
+
+
+
+tr:nth-child(even) {
+    background-color: rgba(120, 180, 184, 0.11);
+}
+
+tr#book {
+    padding: 20px;
+}
+
+tr#book:hover {
+    background-color: rgb(100, 190, 139);
+}
+
+tr#book td {
+    padding: 8px 0;
+}
+
+form {
+    margin: 20px auto;
+    width: 30%;
+    padding: 10px 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin: 10px auto;
+    font-weight: bold;
+
+}
+
+form input {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+
+form button {
+    display: block;
+    padding: 10px 5px;
+    margin: 5px auto 0 auto;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    border: none;
+}
+
+form h2 {
+    text-align: center;
+
+}
+
+
+label span {
+    color: red;
+    font-size: 10px;
+}
